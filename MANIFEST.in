@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include customnavbar *.css
+recursive-include customnavbar *.csv
+recursive-include customnavbar *.html
+recursive-include customnavbar *.ico
+recursive-include customnavbar *.js
+recursive-include customnavbar *.json
+recursive-include customnavbar *.md
+recursive-include customnavbar *.png
+recursive-include customnavbar *.py
+recursive-include customnavbar *.svg
+recursive-include customnavbar *.txt
+recursive-exclude customnavbar *.pyc
