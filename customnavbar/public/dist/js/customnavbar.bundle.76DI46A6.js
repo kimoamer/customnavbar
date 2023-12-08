@@ -166,7 +166,7 @@
     }
     inject_notification_count() {
       const navbar_icon_html = `
-        <span id='notifications-count' class="icon-button__badge" style="position: absolute;top: -5px;right: -5px;width: 15px;height: 15px;background: red;color: #ffffff;display: flex;justify-content: center;align-items: center;border-radius: 50%;"></span>
+        <span id='notifications-count' class="icon-button__badge" style="position: absolute;top: -5px;right: -5px;width: 15px;height: 15px;line-height: 1;background: red;color: #ffffff;display: flex;justify-content: center;align-items: center;border-radius: 50%;font-size: 14px;font-family: Arial;font-weight: bold;text-align: center;box-shadow: 0 0 0 1px #32333b;transform: scale(1);opacity: 1;transition: 0.3s cubic-bezier(0, 0.24, 0.86, 1.08) all;z-index: 3;"></span>
         `;
       $(".notifications-unseen").append(navbar_icon_html);
     }
@@ -376,4 +376,4 @@
     }
   };
 })();
-//# sourceMappingURL=customnavbar.bundle.P2OES67L.js.map
+//# sourceMappingURL=customnavbar.bundle.76DI46A6.js.map
